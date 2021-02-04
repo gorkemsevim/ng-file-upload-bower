@@ -2162,7 +2162,7 @@ ngFileUpload.service('UploadResize', ['UploadValidate', '$q', function (UploadVa
     document.body.appendChild(imageElement);
 
     imageElement.onload = function () {
-      var imgWidth = imageElement.width, imgHeight = imageElement.height;
+      var imgWidth = imageElement.naturalWidth, imgHeight = imageElement.naturalHeight;
       imageElement.parentNode.removeChild(imageElement);
       if (resizeIf != null && resizeIf(imgWidth, imgHeight) === false) {
         deferred.reject('resizeIf');
