@@ -1,7 +1,7 @@
 {
   "name": "ng-file-upload",
   "main": "ng-file-upload.js",
-  "homepage": "https://github.com/danialfarid/ng-file-upload",
+  "homepage": "https://github.com/gorkemsevim/ng-file-upload",
   "dependencies": {
     "angular": ">1.2.0"
   },
